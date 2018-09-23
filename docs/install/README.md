@@ -8,15 +8,12 @@ install_index: true
 ## Installation
 
 ``` php
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
+composer require akopean/voyager-media
 ```
-
+After updating composer, add the service provider to the providers array in config/app.php
+``` php
+ VoyagerMedia\VoyagerMediaServiceProvider::class,
+```
 ## Installation
 
 ``` php
