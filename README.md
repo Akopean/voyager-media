@@ -5,4 +5,4 @@
 
 This addition to Voyager Media, which allows you to expand the ability to download images
 
-[Docs](https://github.com/Akopean/voyager-media/doc/index.html)
+[Docs](https://akopean.github.io/voyager-media)
