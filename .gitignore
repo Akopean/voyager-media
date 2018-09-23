@@ -1,12 +1,5 @@
 /node_modules
 /docs
-/assets
-/config
-/resources
-/routes
-/src
-/composer.json
-/mix-manifest.json
 /package.json
 /package-lock.json
 /webpack.mix.js
