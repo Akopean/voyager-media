@@ -1,5 +1,5 @@
 {
-  "name": "voyager-media",
+  "name": "akopean/voyager-media",
   "description": "Voyager Media Hook",
   "tags": ["voyager"],
   "require": {
