@@ -13,20 +13,6 @@ return [
         'namespace' => 'VoyagerMedia\\Http\\Controllers',
     ],
 
-
-    /*
-    |--------------------------------------------------------------------------
-    | Models config
-    |--------------------------------------------------------------------------
-    |
-    | Here you can specify default model namespace ...
-    |
-    */
-
-     'models' => [
-         'namespace' => 'VoyagerMedia\\Models',
-     ],
-
     /*
     |--------------------------------------------------------------------------
     | Path to the Assets

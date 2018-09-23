@@ -1,0 +1,25 @@
+{
+  "name": "voyager-media",
+  "description": "Voyager Media Hook",
+  "tags": ["voyager"],
+  "require": {
+    "larapack/hooks": "~1.0"
+  },
+  "authors": [
+    {
+      "name": "A. Agassi"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VoyagerMedia\\": "src/"
+    }
+  },
+  "extra": {
+    "hook": {
+      "providers": [
+        "VoyagerMedia\\VoyagerMediaServiceProvider"
+      ]
+    }
+  }
+}

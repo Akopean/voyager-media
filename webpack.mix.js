@@ -23,5 +23,5 @@ mix.setPublicPath('./')
 mix.options({
   processCssUrls: false,
   fs : 'empty',
-}).sass('resources/assets/scss/app.scss', 'assets/css')
+})
   .js('resources/assets/js/app.js', 'assets/js');

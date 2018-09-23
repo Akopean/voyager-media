@@ -62,17 +62,7 @@ class InstallCommand extends Command
 
         $this->call('vendor:publish', ['--provider' => VoyagerMediaServiceProvider::class, '--tag' => $tags]);
 
-       // $this->info('Migrating the database tables into your application');
-       // $this->call('migrate');
 
-
-        //$this->info('Seeding data into the database');
-        //$this->seed('VoyagerMediaDatabaseSeeder');
-
-       //$this->info('Seeding dummy data');
-       //$this->seed('VoyagerMediaDummyDatabaseSeeder');
-
-
-        $this->info('Successfully installed Voyager Shop! Enjoy');
+        $this->info('Successfully installed Voyager Media! Enjoy');
     }
 }
