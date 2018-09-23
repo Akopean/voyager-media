@@ -14,77 +14,16 @@ After updating composer, add the service provider to the providers array in conf
 ``` php
  VoyagerMedia\VoyagerMediaServiceProvider::class,
 ```
-## Installation
-
+## Use
+Add this code, where you need show media button 
 ``` php
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
+ @voyagerMediaButton('image', 'false', $product->image)
+```
+##### 1.param ['image' => field name]
+##### 2.param ['false/true' => single/multiple]
+##### 3.param [$product->image => model attribute]
 
-
-## Installation
-
+Add this code to the end section['content']
 ``` php
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-
-## Installation
-
-``` php
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-## Installation
-
-``` php
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-## Installation
-
-``` php
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-## Installation
-
-``` php
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-v
-## Installation
-
-``` php
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
+    @voyagerMediaModal()
+```
