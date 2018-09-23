@@ -94,8 +94,7 @@ module.exports = g;
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(2);
-module.exports = __webpack_require__(8);
+module.exports = __webpack_require__(2);
 
 
 /***/ }),
@@ -108,7 +107,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_sortablejs__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_sortablejs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_sortablejs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_toastr__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_toastr__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_toastr___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_toastr__);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -13741,16 +13740,6 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**!
 
 /***/ }),
 /* 8 */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: ENOENT: no such file or directory, open 'G:\\OpenServer\\domains\\localhost\\Laravel\\Laravel+Voyager+Shop\\VoyagerMedia\\resources\\assets\\scss\\app.scss'\n    at runLoaders (G:\\OpenServer\\domains\\localhost\\Laravel\\Laravel+Voyager+Shop\\VoyagerMedia\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at G:\\OpenServer\\domains\\localhost\\Laravel\\Laravel+Voyager+Shop\\VoyagerMedia\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at G:\\OpenServer\\domains\\localhost\\Laravel\\Laravel+Voyager+Shop\\VoyagerMedia\\node_modules\\loader-runner\\lib\\LoaderRunner.js:200:19\n    at G:\\OpenServer\\domains\\localhost\\Laravel\\Laravel+Voyager+Shop\\VoyagerMedia\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:70:14\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
-
-/***/ }),
-/* 9 */,
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -13767,7 +13756,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
  */
 /* global define */
 (function (define) {
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(14)], __WEBPACK_AMD_DEFINE_RESULT__ = (function ($) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(9)], __WEBPACK_AMD_DEFINE_RESULT__ = (function ($) {
         return (function () {
             var $container;
             var listener;
@@ -14223,11 +14212,11 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
         })();
     }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-}(__webpack_require__(15)));
+}(__webpack_require__(10)));
 
 
 /***/ }),
-/* 14 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -24598,7 +24587,7 @@ return jQuery;
 
 
 /***/ }),
-/* 15 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = function() {
