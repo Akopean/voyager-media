@@ -1,10 +1,11 @@
 module.exports = {
-    title: 'Outreach Shame',
-    themeConfig: {
-        sidebar: [
-            '/',
-           ['/install/', 'Install'],
-           ['/configuration/', 'Configuration']
-        ]
-    }
+  title: 'Outreach Shame',
+  base: 'voyager-media',
+  themeConfig: {
+    sidebar: [
+      '/',
+      ['/install/', 'Install'],
+      ['/configuration/', 'Configuration']
+    ]
+  }
 }
