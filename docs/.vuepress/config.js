@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Outreach Shame',
-  base: 'voyager-media',
+  base: 'https://akopean.github.io/voyager-media/',
   themeConfig: {
     sidebar: [
       '/',
